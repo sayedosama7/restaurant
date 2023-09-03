@@ -50,6 +50,20 @@ a {
     border: 1px solid var(--main-color);
     padding: 10px;
 }
+.fa-phone-flip {
+    font-size: 25px;
+    border: 2px solid var(--main-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.navbar-brand h1:hover,
+.navbar-brand .fa-utensils:hover {
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--main-color) !important;
+}
 
 @media (max-width:768px) {
     .navbar-brand .fa-utensils {
@@ -107,7 +121,7 @@ a {
     width: 450px;
     margin-top: 50px;
     margin-left: 50px;
-    animation: spin 50s linear infinite;
+    animation: spin 40s linear infinite;
 }
 
 @keyframes spin {
@@ -368,3 +382,55 @@ form input[type="email"] {
 }
 
 /* End contact  */
+
+/* start chefs  */
+.chefs {
+    padding: 100px;
+    background-color: #cccccc34;
+}
+
+.chefs-icons .fa-facebook,
+.chefs-icons .fa-facebook-messenger,
+.chefs-icons .fa-twitter {
+    color: var(--main-color);
+    font-size: 25px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.chefs-icons .fa-facebook:hover,
+.chefs-icons .fa-facebook-messenger:hover,
+.chefs-icons .fa-twitter:hover {
+    color: #fff;
+    background-color: #FEA116;
+}
+
+.chefs .card {
+    overflow: hidden;
+}
+
+.chefs .card img {
+    transition: var(--main-transition);
+    transform: scale(1);
+}
+
+.chefs .card img:hover {
+    transform: scale(.9);
+    filter: brightness(0.6);
+}
+
+@media (max-width:576px) {
+    .chefs {
+        padding: 50px 50px 10px;
+    }
+}
+
+/* End chefs  */
+
+/* start footer  */
+footer {
+    background-color: #0f172b;
+}
+
+/* End footer  */
