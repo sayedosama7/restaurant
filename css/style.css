@@ -81,6 +81,9 @@ a {
         margin-left: 0 !important;
         margin-top: 10px;
     }
+    .fa-phone-flip {
+        display: none;
+    }
 }
 
 /* End navbear  */
